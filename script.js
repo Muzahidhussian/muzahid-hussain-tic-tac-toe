@@ -1,4 +1,4 @@
--let currentPlayer = 'X';
+let currentPlayer = 'X';
 let board = ['', '', '', '', '', '', '', '', ''];
 let gameOver = false;
 
@@ -59,4 +59,5 @@ function resetGame() {
 }
 
 cells.forEach(cell => cell.addEventListener('click', handleClick));
+
 
